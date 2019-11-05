@@ -1,20 +1,20 @@
-<h1>library internet time for bangladesh religion</h1>
+<h1>library internet time of bangladesh religion</h1>
 
 //add this build.gradle [project module] </br>
 
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
+allprojects {</br>
+    repositories {</br>
+        jcenter()</br>
+        maven { url "https://jitpack.io" }</br>
+    }</br>
 }
 
 
 //use this dependency</br> 
 
-implementation 'com.github.mdmasum-shuvo:internet_provide_time:0.0.1'
+implementation 'com.github.mdmasum-shuvo:internet_provide_time:0.0.1'</br>
 
 // implement this in your activity class </br>
     DateTimeChangeCallback </br>
-//call constuctor on your activity
+//call constuctor on your activity </br>
   Clock clock=new clock(this,this)
