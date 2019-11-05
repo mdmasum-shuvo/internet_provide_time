@@ -1,0 +1,2 @@
+include ':app', ':internet_time'
+rootProject.name='server_time'
