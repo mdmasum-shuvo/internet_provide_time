@@ -9,7 +9,7 @@ import java.util.Date
 import java.util.Timer
 import java.util.TimerTask
 
-class Clock(private val callback: DateTimeChangeCallback, private val context: Activity) : TimeResponseCallbackListener {
+ class Clock(private val callback: DateTimeChangeCallback, private val context: Activity) : TimeResponseCallbackListener {
     internal var mTimer: Timer? = null
     internal var mTimerTask: TimerTask? = null
     internal var second: Int = 0
@@ -83,7 +83,7 @@ class Clock(private val callback: DateTimeChangeCallback, private val context: A
         mTimer!!.scheduleAtFixedRate(mTimerTask, 0, 1000)
     }
 
-    fun StopClock() {
+    fun stopClock() {
         if (mTimer != null) {
             mTimer!!.cancel()
             mTimer = null

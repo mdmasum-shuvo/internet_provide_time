@@ -38,6 +38,7 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:3.9.0"
     compile "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.github.mdmasum-shuvo:internet_provide_time:0.0.1'
 }
 repositories {
     mavenCentral()
