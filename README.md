@@ -14,7 +14,7 @@ allprojects {
 
 implementation 'com.github.mdmasum-shuvo:internet_provide_time:0.0.1'
 
-// implement this in your activity class 
-    DateTimeChangeCallback
+// implement this in your activity class </br>
+    DateTimeChangeCallback </br>
 //call constuctor on your activity
   Clock clock=new clock(this,this)
