@@ -1,6 +1,6 @@
 <h1>library internet time for bangladesh religion</h1>
 
-//add this build.gradle [project module]
+//add this build.gradle [project module] </br>
 
 allprojects {
     repositories {
@@ -10,7 +10,7 @@ allprojects {
 }
 
 
-//use this dependency 
+//use this dependency</br> 
 
 implementation 'com.github.mdmasum-shuvo:internet_provide_time:0.0.1'
 
